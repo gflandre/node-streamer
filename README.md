@@ -1,5 +1,8 @@
 # Streamer
 
+[![Build Status](https://travis-ci.org/gflandre/node-streamer.svg?branch=master)](https://travis-ci.org/gflandre/node-streamer)
+[![NPM](https://nodei.co/npm/node-streamer.png?compact=true)](https://nodei.co/npm/node-streamer/)
+
 Streamer is a lib helping to iterate over streamed data while performing async
 operations on each piece of data streamed.
 
