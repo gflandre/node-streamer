@@ -9,9 +9,14 @@
               "url": "http://twitter.com/gflandre" },
   "repository" :    { "type" :  "git",
                       "url" :   "https://github.com/gflandre/node-streamer.git" },
-  "dependencies": {},
+  "dependencies": {
+      "mocha": "2.2.x"
+    },
   "main" : "./streamer.js",
   "engines" : {
     "node" : ">=v0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
   }
 }
