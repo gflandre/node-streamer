@@ -1,5 +1,8 @@
 # Streamer
 
+Streamer is a lib helping to iterate over streamed data while performing async
+operations on each piece of data streamed.
+
 ## Install
 ```
 npm install node-streamer
@@ -23,7 +26,7 @@ Where :
    - `cb` to be called when the async task is done
  - `callback` the callback called when the stream is done
 
-
+#### Example:
 ```
 var streamer = require('node-streamer');
 
