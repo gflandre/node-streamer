@@ -1,6 +1,6 @@
 {
   "name": "node-streamer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js streaming helper for async tasks",
   "keywords": ["streaming", "helper", "async"],
   "homepage": "https://github.com/gflandre/node-streamer",
