@@ -1,0 +1,17 @@
+{
+  "name": "node-streamer",
+  "version": "0.1.0",
+  "description": "Node.js streaming helper for async tasks",
+  "keywords": ["streaming", "helper", "async"],
+  "homepage": "https://github.com/gflandre/node-streamer",
+  "author": { "name": "Guillaume Flandre",
+              "email": "guiome.flandre@gmail.com",
+              "url": "http://twitter.com/gflandre" },
+  "repository" :    { "type" :  "git",
+                      "url" :   "https://github.com/gflandre/node-streamer.git" },
+  "dependencies": {},
+  "main" : "./streamer.js",
+  "engines" : {
+    "node" : ">=v0.10.0"
+  }
+}
