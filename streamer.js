@@ -58,7 +58,8 @@ var streamer = function () {
 
 		var end = function () {
 			if(done && processed >= retrieved) {
-				return cb(null, getStats(true));
+				cb(null, getStats(true));
+				cb = function () {};
 			}
 		};
 
@@ -76,6 +77,10 @@ var streamer = function () {
 			});
 		})
 		.on('error', cb)
+		.on('end', function () {
+			done = true;
+			end();
+		})
 		.on('close', function () {
 			done = true;
 			end();
